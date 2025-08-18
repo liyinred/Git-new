@@ -4,6 +4,8 @@
 git rm -r --cached env/
 
 git commit -m "Remove env folder from Git"
+
+git status --ignored
 ```
 
 
