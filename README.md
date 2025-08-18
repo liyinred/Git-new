@@ -1,3 +1,12 @@
+**确认 env/ 不再显示为未跟踪文件**
+
+```bash
+git rm -r --cached env/
+
+git commit -m "Remove env folder from Git"
+```
+
+
 **Git SSH Key (push public key to github)**
 
 ```bash
